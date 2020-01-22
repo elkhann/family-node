@@ -1,115 +1,5 @@
 [
   {
-    "id": "HkqEDLvxE",
-
-    "gender": "male",
-    "parents": [
-      {
-        "id": "011jVS4rb",
-        "type": "blood"
-      },
-      {
-        "id": "PXACjDxmR",
-        "type": "blood"
-      }
-    ],
-    "siblings": [
-      {
-        "id": "kuVISwh7w",
-        "type": "blood"
-      },
-      {
-        "id": "UIEjvLJMd",
-        "type": "blood"
-      },
-      {
-        "id": "ZVi8fWDBx",
-        "type": "blood"
-      }
-    ],
-    "spouses": [],
-    "children": []
-  },
-  {
-    "id": "011jVS4rb",
-    "gender": "male",
-    "parents": [
-      {
-        "id": "ypu71w9_Q",
-        "type": "blood"
-      },
-      {
-        "id": "GEf8zF7A4",
-        "type": "blood"
-      }
-    ],
-    "children": [
-      {
-        "id": "HkqEDLvxE",
-        "type": "blood"
-      },
-      {
-        "id": "kuVISwh7w",
-        "type": "blood"
-      },
-      {
-        "id": "UIEjvLJMd",
-        "type": "blood"
-      },
-      {
-        "id": "ZVi8fWDBx",
-        "type": "blood"
-      }
-    ],
-    "siblings": [],
-    "spouses": [
-      {
-        "id": "PXACjDxmR",
-        "type": "married"
-      }
-    ]
-  },
-  {
-    "id": "PXACjDxmR",
-    "gender": "female",
-    "parents": [
-      {
-        "id": "2DlrR0fK8",
-        "type": "blood"
-      }
-    ],
-    "children": [
-      {
-        "id": "HkqEDLvxE",
-        "type": "blood"
-      },
-      {
-        "id": "kuVISwh7w",
-        "type": "blood"
-      },
-      {
-        "id": "UIEjvLJMd",
-        "type": "blood"
-      },
-      {
-        "id": "ZVi8fWDBx",
-        "type": "blood"
-      }
-    ],
-    "siblings": [
-      {
-        "id": "H-06WvsfJ",
-        "type": "blood"
-      }
-    ],
-    "spouses": [
-      {
-        "id": "011jVS4rb",
-        "type": "married"
-      }
-    ]
-  },
-  {
     "id": "kuVISwh7w",
     "name": "James",
     "surname": "Males",
@@ -135,16 +25,49 @@
       {
         "id": "HkqEDLvxE",
         "type": "blood"
-      },
+      }
+    ],
+    "spouses": []
+  },
+  {
+    "id": "HkqEDLvxE",
+    "name": "Rob",
+    "surname": "Males",
+    "diagnosis": "Lung",
+    "gender": "male",
+    "parents": [
       {
-        "id": "UIEjvLJMd",
+        "id": "011jVS4rb",
         "type": "blood"
       },
       {
-        "id": "ZVi8fWDBx",
+        "id": "PXACjDxmR",
         "type": "blood"
       }
     ],
+    "siblings": [
+      {
+        "id": "kuVISwh7w",
+        "type": "blood"
+      }
+    ],
+    "spouses": [],
+    "children": []
+  },
+  {
+    "id": "Fbc9iwnJl",
+    "name": "Jason",
+    "surname": "Males",
+    "diagnosis": "",
+    "gender": "male",
+    "parents": [
+      {
+        "id": "kuVISwh7w",
+        "type": "blood"
+      }
+    ],
+    "children": [],
+    "siblings": [],
     "spouses": [
       {
         "id": "vRSjcaDGj",
@@ -153,15 +76,94 @@
     ]
   },
   {
-    "id": "UIEjvLJMd",
+    "id": "vRSjcaDGj",
+    "name": "Linda",
+    "surname": "Males",
+    "diagnosis": "",
     "gender": "female",
+    "parents": [],
+    "children": [],
+    "siblings": [],
+    "spouses": [
+      {
+        "id": "Fbc9iwnJl",
+        "type": "married"
+      }
+    ]
+  },
+
+  {
+    "id": "011jVS4rb",
+    "name": "John",
+    "surname": "Males",
+    "diagnosis": "",
+    "gender": "male",
     "parents": [
       {
-        "id": "011jVS4rb",
+        "id": "ypu71w9_Q",
         "type": "blood"
       },
       {
+        "id": "GEf8zF7A4",
+        "type": "blood"
+      }
+    ],
+    "children": [
+      {
+        "id": "HkqEDLvxE",
+        "type": "blood"
+      },
+      {
+        "id": "kuVISwh7w",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "spouses": [
+      {
         "id": "PXACjDxmR",
+        "type": "married"
+      }
+    ]
+  },
+  {
+    "id": "PXACjDxmR",
+    "name": "Anna",
+    "surname": "Males",
+    "diagnosis": "Breast",
+    "gender": "female",
+    "parents": [],
+    "children": [
+      {
+        "id": "HkqEDLvxE",
+        "type": "blood"
+      },
+      {
+        "id": "kuVISwh7w",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "spouses": [
+      {
+        "id": "011jVS4rb",
+        "type": "married"
+      }
+    ]
+  },
+  {
+    "id": "UIEjvLJMd",
+    "name": "Jane",
+    "surname": "Males",
+    "diagnosis": "",
+    "gender": "female",
+    "parents": [
+      {
+        "id": "ypu71w9_Q",
+        "type": "blood"
+      },
+      {
+        "id": "GEf8zF7A4",
         "type": "blood"
       }
     ],
@@ -226,50 +228,7 @@
       }
     ]
   },
-  {
-    "id": "vRSjcaDGj",
-    "gender": "female",
-    "parents": [
-      {
-        "id": "6vASIIxhd",
-        "type": "blood"
-      },
-      {
-        "id": "iFiwqrWx-",
-        "type": "blood"
-      }
-    ],
-    "children": [
-      {
-        "id": "Fbc9iwnJl",
-        "type": "blood"
-      }
-    ],
-    "siblings": [],
-    "spouses": [
-      {
-        "id": "kuVISwh7w",
-        "type": "married"
-      }
-    ]
-  },
-  {
-    "id": "Fbc9iwnJl",
-    "gender": "female",
-    "parents": [
-      {
-        "id": "kuVISwh7w",
-        "type": "blood"
-      },
-      {
-        "id": "vRSjcaDGj",
-        "type": "blood"
-      }
-    ],
-    "children": [],
-    "siblings": [],
-    "spouses": []
-  },
+
   {
     "id": "ypu71w9_Q",
     "gender": "male",

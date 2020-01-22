@@ -5,8 +5,8 @@ import ReactFamilyTree from "react-family-tree";
 import FamilyNode from "../FamilyNode/FamilyNode";
 import styles from "./App.module.css";
 
-import nodes from "../../sample.json";
-const myID = "kuVISwh7w";
+import nodes from "../../males.json";
+const myID = "-1X";
 
 const WIDTH = 259;
 const HEIGHT = 199;

@@ -13,19 +13,26 @@ interface Props {
 export default React.memo<Props>(function FamilyNode({
   node,
   isRoot,
-  onSubClick,
+  // onSubClick,
   style
 }) {
+  console.log(node);
   return (
-    <div className={styles.root} style={style}>
+    <div className={classNames(styles.root)} style={style}>
       <div
         className={classNames(
           styles.inner,
           styles[node.gender],
           isRoot && styles.isRoot
         )}
-      >
-        Test
+      ></div>
+      <div className={styles.container}>
+        <div className={styles.text}>
+          <div>
+            {node.name} {node.surname}
+          </div>
+          <div>{node.diagnosis}</div>
+        </div>
       </div>
 
       {/* {node.hasSubTree && (

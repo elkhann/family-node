@@ -1,0 +1,498 @@
+[
+  {
+    "id": "-10X",
+    "name": "Ben ",
+    "surname": "Mayers",
+    "diagnosis": "",
+    "gender": "male",
+    "parents": [],
+    "children": [
+      {
+        "id": "-1X",
+        "type": "blood"
+      },
+
+      {
+        "id": "-3X",
+        "type": "blood"
+      },
+      {
+        "id": "-2X",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "spouses": [
+      {
+        "id": "-10Y",
+        "type": "married"
+      }
+    ]
+  },
+  {
+    "id": "-10Y",
+    "name": "Barbara",
+    "surname": "Mayers",
+    "diagnosis": "Breast",
+    "gender": "female",
+    "parents": [],
+    "children": [
+      {
+        "id": "-1X",
+        "type": "blood"
+      },
+
+      {
+        "id": "-3X",
+        "type": "blood"
+      },
+      {
+        "id": "-2X",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "spouses": [
+      {
+        "id": "-10X",
+        "type": "married"
+      }
+    ]
+  },
+
+  {
+    "id": "-3X",
+    "name": "Brianne ",
+    "surname": "Mayers",
+    "diagnosis": "",
+    "gender": "male",
+    "parents": [
+      {
+        "id": "-10X",
+        "type": "blood"
+      },
+      {
+        "id": "-10Y",
+        "type": "blood"
+      }
+    ],
+    "children": [
+      {
+        "id": "3X",
+        "type": "blood"
+      }
+    ],
+    "siblings": [
+      {
+        "id": "-1X",
+        "type": "blood"
+      },
+      {
+        "id": "-2X",
+        "type": "blood"
+      }
+    ],
+    "spouses": [
+      {
+        "id": "-3Y",
+        "type": "divorced"
+      }
+    ]
+  },
+  {
+    "id": "-2X",
+    "name": "Jane ",
+    "surname": "Mayers",
+    "diagnosis": "",
+    "gender": "female",
+    "parents": [
+      {
+        "id": "-10X",
+        "type": "blood"
+      },
+      {
+        "id": "-10Y",
+        "type": "blood"
+      }
+    ],
+    "children": [],
+    "siblings": [
+      {
+        "id": "-1X",
+        "type": "blood"
+      },
+      {
+        "id": "-3X",
+        "type": "blood"
+      }
+    ],
+    "spouses": []
+  },
+  {
+    "id": "-3Y",
+    "name": "Adam ",
+    "surname": "Mayers",
+    "diagnosis": "",
+    "gender": "male",
+    "parents": [],
+    "children": [
+      {
+        "id": "3X",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "spouses": [
+      {
+        "id": "-3X",
+        "type": "divorced"
+      }
+    ]
+  },
+  {
+    "id": "3X",
+    "name": "Donald ",
+    "surname": "Mayers",
+    "diagnosis": "",
+    "gender": "male",
+    "parents": [
+      {
+        "id": "-3X",
+        "type": "blood"
+      },
+      {
+        "id": "-3Y",
+        "type": "blood"
+      }
+    ],
+    "children": [
+      {
+        "id": "31X",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "spouses": []
+  },
+  {
+    "id": "31X",
+    "name": "Tom ",
+    "surname": "Mayers",
+    "diagnosis": "",
+    "gender": "male",
+    "parents": [
+      {
+        "id": "3X",
+        "type": "blood"
+      },
+      {
+        "id": "3Y",
+        "type": "blood"
+      }
+    ],
+    "children": [
+      {
+        "id": "311X",
+        "type": "blood"
+      },
+      {
+        "id": "312X",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "spouses": [
+      {
+        "id": "31Y",
+        "type": "married"
+      }
+    ]
+  },
+  {
+    "id": "31Y",
+    "name": "Paula ",
+    "surname": "Mayers",
+    "diagnosis": "",
+    "gender": "female",
+    "parents": [],
+    "children": [
+      {
+        "id": "311X",
+        "type": "blood"
+      },
+      {
+        "id": "312X",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "spouses": [
+      {
+        "id": "31X",
+        "type": "married"
+      }
+    ]
+  },
+  {
+    "id": "311X",
+    "name": "Heather ",
+    "surname": "Mayers",
+    "diagnosis": "",
+    "gender": "female",
+    "parents": [
+      {
+        "id": "31X",
+        "type": "blood"
+      },
+      {
+        "id": "31Y",
+        "type": "blood"
+      }
+    ],
+    "children": [],
+    "siblings": [],
+    "spouses": []
+  },
+  {
+    "id": "312X",
+    "name": "Susan ",
+    "surname": "Mayers",
+    "diagnosis": "",
+    "gender": "female",
+    "parents": [
+      {
+        "id": "31X",
+        "type": "blood"
+      },
+      {
+        "id": "31Y",
+        "type": "blood"
+      }
+    ],
+    "children": [],
+    "siblings": [],
+    "spouses": []
+  },
+  {
+    "id": "-1X",
+    "name": "John ",
+    "surname": "Mayers",
+    "diagnosis": "",
+    "gender": "male",
+    "parents": [
+      {
+        "id": "-10X",
+        "type": "blood"
+      },
+      {
+        "id": "-10Y",
+        "type": "blood"
+      }
+    ],
+    "children": [
+      {
+        "id": "0X",
+        "type": "blood"
+      },
+      {
+        "id": "1X",
+        "type": "blood"
+      }
+    ],
+    "siblings": [
+      {
+        "id": "-3X",
+        "type": "blood"
+      },
+      {
+        "id": "-2X",
+        "type": "blood"
+      }
+    ],
+    "spouses": [
+      {
+        "id": "-1Y",
+        "type": "married"
+      }
+    ]
+  },
+  {
+    "id": "-1Y",
+    "name": "Anna",
+    "surname": "Mayers",
+    "diagnosis": "Breast",
+    "gender": "female",
+    "parents": [],
+    "children": [
+      {
+        "id": "0X",
+        "type": "blood"
+      },
+      {
+        "id": "1X",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "spouses": [
+      {
+        "id": "-1X",
+        "type": "married"
+      }
+    ]
+  },
+  {
+    "id": "0X",
+    "name": "James",
+    "surname": "Mayers",
+    "diagnosis": "",
+    "gender": "male",
+    "parents": [
+      {
+        "id": "-1X",
+        "type": "blood"
+      },
+      {
+        "id": "-1Y",
+        "type": "blood"
+      }
+    ],
+    "children": [
+      {
+        "id": "10X",
+        "type": "blood"
+      }
+    ],
+    "siblings": [
+      {
+        "id": "1X",
+        "type": "blood"
+      }
+    ],
+    "spouses": []
+  },
+
+  {
+    "id": "10X",
+    "name": "Jason",
+    "surname": "Mayers",
+    "diagnosis": "",
+    "gender": "male",
+    "parents": [
+      {
+        "id": "0X",
+        "type": "blood"
+      }
+    ],
+    "children": [
+      {
+        "id": "100X",
+        "type": "blood"
+      },
+      {
+        "id": "101X",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "spouses": [
+      {
+        "id": "10Y",
+        "type": "married"
+      }
+    ]
+  },
+  {
+    "id": "10Y",
+    "name": "Linda",
+    "surname": "Mayers",
+    "diagnosis": "",
+    "gender": "female",
+    "parents": [],
+    "children": [
+      {
+        "id": "100X",
+        "type": "blood"
+      },
+      {
+        "id": "101X",
+        "type": "blood"
+      }
+    ],
+    "siblings": [],
+    "spouses": [
+      {
+        "id": "10X",
+        "type": "married"
+      }
+    ]
+  },
+  {
+    "id": "101X",
+    "name": "Jane",
+    "surname": "Mayers",
+    "diagnosis": "",
+    "gender": "female",
+    "parents": [
+      {
+        "id": "10X",
+        "type": "blood"
+      }
+    ],
+    "children": [],
+    "siblings": [
+      {
+        "id": "100X",
+        "type": "blood"
+      }
+    ],
+    "spouses": []
+  },
+  {
+    "id": "100X",
+    "name": "Mary",
+    "surname": "Mayers",
+    "diagnosis": "",
+    "gender": "female",
+    "parents": [
+      {
+        "id": "10X",
+        "type": "blood"
+      }
+    ],
+    "children": [],
+    "siblings": [
+      {
+        "id": "101X",
+        "type": "blood"
+      }
+    ],
+    "spouses": []
+  },
+
+  {
+    "id": "1X",
+    "name": "Rob",
+    "surname": "Mayers",
+    "diagnosis": "Lung",
+    "gender": "male",
+    "parents": [
+      {
+        "id": "-1X",
+        "type": "blood"
+      },
+      {
+        "id": "-1Y",
+        "type": "blood"
+      }
+    ],
+    "siblings": [
+      {
+        "id": "0X",
+        "type": "blood"
+      }
+    ],
+    "spouses": [],
+    "children": []
+  }
+]

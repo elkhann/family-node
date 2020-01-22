@@ -1,28 +1,38 @@
 .root {
   position: absolute;
-  display: flex;
-  padding: 60px 85px;
+  /* display: flex; */
 }
 
 .inner {
   border: 2px solid rgba(0, 0, 0, 0.2);
+  background: #fff;
+  margin: auto;
 }
 
 .male {
-  background: #fff;
   height: 80px;
   width: 80px;
+  margin-top: 60px;
 }
 
 .female {
-  background: #fff;
   height: 90px;
   width: 90px;
+  margin-top: 55px;
   border-radius: 45px;
 }
 
 .isRoot {
   border-color: rgba(0, 0, 0, 0.4);
+}
+.container {
+  width: 100%;
+}
+
+.text {
+  display: table;
+  margin: 0 auto;
+  background-color: #fff;
 }
 
 .sub {
