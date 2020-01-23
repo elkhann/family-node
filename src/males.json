@@ -3,8 +3,9 @@
     "id": "-10X",
     "name": "Ben ",
     "surname": "Mayers",
-    "diagnosis": "",
     "gender": "male",
+    "dead": true,
+    "diagnosis": "Brain",
     "parents": [],
     "children": [
       {
@@ -33,8 +34,9 @@
     "id": "-10Y",
     "name": "Barbara",
     "surname": "Mayers",
-    "diagnosis": "Breast",
     "gender": "female",
+    "dead": true,
+    "diagnosis": "Brain",
     "parents": [],
     "children": [
       {
@@ -64,8 +66,9 @@
     "id": "-3X",
     "name": "Brianne ",
     "surname": "Mayers",
-    "diagnosis": "",
-    "gender": "male",
+    "gender": "female",
+    "diagnosis": "Pancreas",
+    "dead": true,
     "parents": [
       {
         "id": "-10X",
@@ -131,8 +134,8 @@
   {
     "id": "-3Y",
     "name": "Adam ",
-    "surname": "Mayers",
-    "diagnosis": "",
+    "surname": "Johson",
+    "diagnosis": "Pancreas",
     "gender": "male",
     "parents": [],
     "children": [
@@ -178,8 +181,9 @@
     "id": "31X",
     "name": "Tom ",
     "surname": "Mayers",
-    "diagnosis": "",
     "gender": "male",
+    "diagnosis": "Thyroid",
+    "dead": true,
     "parents": [
       {
         "id": "3X",
@@ -212,8 +216,9 @@
     "id": "31Y",
     "name": "Paula ",
     "surname": "Mayers",
-    "diagnosis": "",
     "gender": "female",
+    "diagnosis": "Thyroid",
+    "dead": true,
     "parents": [],
     "children": [
       {
@@ -277,7 +282,7 @@
     "id": "-1X",
     "name": "John ",
     "surname": "Mayers",
-    "diagnosis": "",
+    "diagnosis": "Breast",
     "gender": "male",
     "parents": [
       {
@@ -320,6 +325,7 @@
     "id": "-1Y",
     "name": "Anna",
     "surname": "Mayers",
+    "dead": false,
     "diagnosis": "Breast",
     "gender": "female",
     "parents": [],
@@ -376,7 +382,7 @@
     "id": "10X",
     "name": "Jason",
     "surname": "Mayers",
-    "diagnosis": "",
+    "diagnosis": "Ovary",
     "gender": "male",
     "parents": [
       {
@@ -406,8 +412,9 @@
     "id": "10Y",
     "name": "Linda",
     "surname": "Mayers",
-    "diagnosis": "",
     "gender": "female",
+
+    "diagnosis": "Ovary",
     "parents": [],
     "children": [
       {
@@ -452,8 +459,9 @@
     "id": "100X",
     "name": "Mary",
     "surname": "Mayers",
-    "diagnosis": "",
     "gender": "female",
+    "dead": true,
+    "diagnosis": "Lung",
     "parents": [
       {
         "id": "10X",
@@ -474,8 +482,9 @@
     "id": "1X",
     "name": "Rob",
     "surname": "Mayers",
-    "diagnosis": "Lung",
     "gender": "male",
+    "dead": true,
+    "diagnosis": "Lung",
     "parents": [
       {
         "id": "-1X",

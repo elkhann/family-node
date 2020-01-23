@@ -6,13 +6,28 @@ import FamilyNode from "../FamilyNode/FamilyNode";
 import styles from "./App.module.css";
 
 import nodes from "../../males.json";
-const myID = "-1X";
+const myID = "0X";
+
+const getParentId = (myID: string) => {
+  const myNode = nodes.filter(node => node.id === myID)[0];
+  if (myNode.parents[0]) {
+    return myNode.parents[0].id;
+  }
+  if (myNode.parents[1]) {
+    return myNode.parents[1].id;
+  } else {
+    return myID;
+  }
+};
+
+const parentId = getParentId(myID);
 
 const WIDTH = 259;
 const HEIGHT = 199;
 
 export default React.memo<{}>(function App() {
   const [rootId, setRootId] = useState<string>(myID);
+
   // const onResetClick = useCallback(() => setRootId(myID), []);
 
   return (
@@ -32,7 +47,7 @@ export default React.memo<{}>(function App() {
       >
         <ReactFamilyTree
           nodes={nodes as IFamilyNode[]}
-          rootId={rootId}
+          rootId={parentId}
           width={WIDTH}
           height={HEIGHT}
           canvasClassName={styles.tree}
